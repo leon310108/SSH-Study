@@ -10,7 +10,7 @@
 <body>
 	<h3>用户登录</h3>
 	<hr/>
-	<s:form action="login">
+	<s:form action="login" >
 		<s:textfield name="username" label="用户名"  size="20"/>
 		<s:textfield name="password" label="密码" />
 		<s:submit value="登录"/>

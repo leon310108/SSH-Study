@@ -11,7 +11,7 @@
 		value="false" />
 	<package name="test" extends="struts-default">
 		<!-- 定义处理用户请求的Action，该Action的class使用spring的beans -->
-		<action name="login" class="loginAction">
+		<action name="login" class="actions.LoginAction">
 			<!-- 为两个逻辑视图配置视图页面 -->
 			<result name="error">error.jsp</result>
 			<result name="success">welcome.jsp</result>

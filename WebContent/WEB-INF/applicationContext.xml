@@ -11,7 +11,5 @@
 	http://www.springframework.org/schema/context/spring-context.xsd
 	http://www.springframework.org/schema/util
 	http://www.springframework.org/schema/util/spring-util-4.0.xsd">
-	<bean id="myService" class="service.impl.MyServiceImpl" />
-	<bean id="loginAction" class="actions.LoginAction"
-		scope="prototype" p:ms-ref="myService" />
+	<bean id="ms" class="service.impl.MyServiceImpl" />
 </beans>

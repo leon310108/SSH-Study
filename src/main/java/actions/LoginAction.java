@@ -31,9 +31,10 @@ public class LoginAction extends ActionSupport {
 	@Override
 	public String execute() throws Exception {
 		// TODO Auto-generated method stub
+		System.out.println(getUsername()+":"+getPassword());
 		if(ms.volidLogin(getUsername(), getPassword())>0) {
-			ActionContext.getContext().getSession().put("username", getUsername());
-			addActionMessage("¹ş¹ş£¬ÕûºÏ³É¹¦£¡");
+//			ActionContext.getContext().getSession().put("username", getUsername());
+			addActionMessage("ç™»å½•æˆåŠŸï¼Œæ¬¢è¿æ‚¨ï¼");
 			return SUCCESS;
 		}
 		return ERROR;
