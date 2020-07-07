@@ -1,12 +1,13 @@
 package domain;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
 @Table(name="managers")
 public class Users {
-	
+	@Id
 	private String username;
 	private String password;
 	public String getUsername() {
