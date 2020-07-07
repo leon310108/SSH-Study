@@ -13,6 +13,9 @@
 	<s:form action="login" >
 		<s:textfield name="username" label="用户名"  size="20"/>
 		<s:textfield name="password" label="密码" />
-		<s:submit value="登录"/>
+		<tr>
+		<td colspan="2">
+		<s:submit value="登录"  method="simple"/>
+		<s:submit  value="注册" method="simple"/>
 	</s:form>
 </body>
