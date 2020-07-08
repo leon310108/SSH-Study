@@ -15,7 +15,7 @@
 		<s:textfield name="password" label="密码" type="password"/>
 		<tr>
 			<td colspan="2"><s:submit value="登录" theme="simple" /> <s:submit
-					value="注册" theme="simple" /></td>
+					value="注册" theme="simple"  method="regist" /></td>
 		</tr>
 	</s:form>
 </body>

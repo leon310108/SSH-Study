@@ -39,5 +39,9 @@ public class LoginAction extends ActionSupport {
 		}
 		return ERROR;
 	}
+	
+	public String regist()throws Exception{
+		return INPUT;
+	}
 
 }

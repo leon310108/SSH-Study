@@ -15,6 +15,7 @@
 			<!-- 为两个逻辑视图配置视图页面 -->
 			<result name="error">error.jsp</result>
 			<result name="success">welcome.jsp</result>
+			<result name="input">regist.jsp</result>
 		</action>
 		<!-- 配置注册的actions -->
 		<action name="regist">
